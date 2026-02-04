@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ben Management — Housing & Properties</title>
+  <meta name="description" content="Ben Management — Housing listings, property management, financing and renovation services." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles-housing.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Ben Management</a>
+
+      <button id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" class="nav-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#overview">Overview</a></li>
+          <li><a href="#listings">Listings</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#financing">Financing</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a class="cta" href="https://wa.me/2349114133756" target="_blank" rel="noopener">WhatsApp</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO with background image -->
+  <main>
+    <section class="hero hero-housing" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="hero-title">Housing & Property Solutions</h1>
+          <p class="lead">Find comfortable homes, rent with confidence, and get hands-on property management and renovation support. Local expertise for sustainable living.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="https://wa.me/2349114133756" target="_blank" rel="noopener">Contact on WhatsApp</a>
+            <a class="btn btn-muted" href="#listings">Browse listings</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section id="overview" class="section section-panel" aria-labelledby="overview-title">
+      <div class="container">
+        <h2 id="overview-title" class="section-title">Overview</h2>
+        <p class="section-lead">We connect tenants and owners, manage properties end-to-end, and advise on financing and renovations — all with transparent pricing and 24/7 support.</p>
+
+        <div class="pill-grid">
+          <div class="pill">
+            <strong>Rentals</strong>
+            <span>Verified listings, flexible terms</span>
+          </div>
+          <div class="pill">
+            <strong>Property Mgmt</strong>
+            <span>Maintenance, tenant screening, reporting</span>
+          </div>
+          <div class="pill">
+            <strong>Renovation</strong>
+            <span>Budgeted upgrades, reliable contractors</span>
+          </div>
+          <div class="pill">
+            <strong>Financing</strong>
+            <span>Payment plans & lender introductions</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LISTINGS -->
+    <section id="listings" class="section listings" aria-labelledby="listings-title">
+      <div class="container">
+        <h2 id="listings-title" class="section-title">Featured Listings</h2>
+        <p class="section-lead">Hand-picked properties that balance comfort and value.</p>
+
+        <div class="listings-grid">
+          <article class="listing-card">
+            <div class="img-wrap">
+              <img loading="lazy" alt="Modern apartment living room" src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1200&q=60">
+            </div>
+            <div class="listing-body">
+              <h3>2-Bed Apartment — Lekki</h3>
+              <p class="muted">₦120,000 / month · 2 baths · furnished</p>
+              <p class="small">Bright 2-bedroom near transit, modern kitchen, secure compound.</p>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="https://wa.me/2349114133756" target="_blank" rel="noopener">Enquire</a>
+                <button class="btn btn-outline view-btn" data-src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=2000&q=60">View</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="listing-card">
+            <div class="img-wrap">
+              <img loading="lazy" alt="Cozy bedroom with wood accents" src="https://images.unsplash.com/photo-1505691723518-36a6b3b7f3a6?auto=format&fit=crop&w=1200&q=60">
+            </div>
+            <div class="listing-body">
+              <h3>Studio Flat — Yaba</h3>
+              <p class="muted">₦65,000 / month · 1 bath · semi-furnished</p>
+              <p class="small">Compact and well-located studio ideal for working professionals.</p>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="https://wa.me/2349114133756" target="_blank" rel="noopener">Enquire</a>
+                <button class="btn btn-outline view-btn" data-src="https://images.unsplash.com/photo-1505691723518-36a6b3b7f3a6?auto=format&fit=crop&w=2000&q=60">View</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="listing-card">
+            <div class="img-wrap">
+              <img loading="lazy" alt="Exterior of a townhouse" src="https://images.unsplash.com/photo-1600607682911-aedb9e18f0b9?auto=format&fit=crop&w=1200&q=60">
+            </div>
+            <div class="listing-body">
+              <h3>3-Bed Townhouse — Victoria Island</h3>
+              <p class="muted">₦450,000 / month · 3 baths · unfurnished</p>
+              <p class="small">Spacious townhouse in gated community with generator & security.</p>
+              <div class="card-actions">
+                <a class="btn btn-primary" href="https://wa.me/2349114133756" target="_blank" rel="noopener">Enquire</a>
+                <button class="btn btn-outline view-btn" data-src="https://images.unsplash.com/photo-1600607682911-aedb9e18f0b9?auto=format&fit=crop&w=2000&q=60">View</button>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES with background image -->
+    <section id="services" class="section section-bg-1" aria-labelledby="services-title">
+      <div class="container">
+        <h2 id="services-title" class="section-title">Our Services</h2>
+        <p class="section-lead">Comprehensive services to cover the full lifecycle of a property.</p>
+
+        <div class="services-grid">
+          <div class="service">
+            <h3>Tenant Placement</h3>
+            <p>Fast tenant sourcing, screening, move-in checks and digital lease handling.</p>
+          </div>
+          <div class="service">
+            <h3>Maintenance & Repairs</h3>
+            <p>Trusted contractor network, scheduled maintenance and emergency response.</p>
+          </div>
+          <div class="service">
+            <h3>Portfolio Reporting</h3>
+            <p>Monthly financial statements, occupancy dashboards and expense tracking.</p>
+          </div>
+          <div class="service">
+            <h3>Renovation Projects</h3>
+            <p>Small to medium scope renovations with fixed quotes and timelines.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FINANCING / PRICING -->
+    <section id="financing" class="section section-panel" aria-labelledby="financing-title">
+      <div class="container">
+        <h2 id="financing-title" class="section-title">Financing & Pricing</h2>
+        <p class="section-lead">Flexible plans for landlords and renters. Transparent fees, no surprises.</p>
+
+        <div class="pricing-grid">
+          <div class="price-card">
+            <h3>Tenant Plan</h3>
+            <p class="price">From ₦5,000 <small>/ month</small></p>
+            <ul class="price-features">
+              <li>Listing support</li>
+              <li>View scheduling</li>
+              <li>Digital lease generation</li>
+            </ul>
+            <a class="btn btn-outline" href="https://wa.me/2349114133756" target="_blank" rel="noopener">Get started</a>
+          </div>
+
+          <div class="price-card featured">
+            <h3>Landlord Plan</h3>
+            <p class="price">7% of rent</p>
+            <ul class="price-features">
+              <li>Full property management</li>
+              <li>Maintenance coordination</li>
+              <li>Monthly accounting</li>
+            </ul>
+            <a class="btn btn-primary" href="https://wa.me/2349114133756" target="_blank" rel="noopener">Contact sales</a>
+          </div>
+
+          <div class="price-card">
+            <h3>Renovation Estimate</h3>
+            <p class="price">Custom</p>
+            <ul class="price-features">
+              <li>Free site visit</li>
+              <li>Fixed quotes</li>
+              <li>Project management</li>
+            </ul>
+            <a class="btn btn-outline" href="https://wa.me/2349114133756" target="_blank" rel="noopener">Request estimate</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="section section-bg-2" aria-labelledby="gallery-title">
+      <div class="container">
+        <h2 id="gallery-title" class="section-title">Gallery</h2>
+        <p class="section-lead">Selected photos from recent projects and listings.</p>
+
+        <div class="gallery-grid">
+          <img alt="Stylish living area" src="https://images.unsplash.com/photo-1505691723518-36a6b3b7f3a6?auto=format&fit=crop&w=1400&q=60" class="thumb" loading="lazy">
+          <img alt="Kitchen with island" src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&w=1400&q=60" class="thumb" loading="lazy">
+          <img alt="Modern exterior" src="https://images.unsplash.com/photo-1600607682911-aedb9e18f0b9?auto=format&fit=crop&w=1400&q=60" class="thumb" loading="lazy">
+          <img alt="Cozy bedroom" src="https://images.unsplash.com/photo-1549187774-b4e9b0445b63?auto=format&fit=crop&w=1400&q=60" class="thumb" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials" class="section section-panel" aria-labelledby="testimonials-title">
+      <div class="container">
+        <h2 id="testimonials-title" class="section-title">Testimonials</h2>
+        <div class="testimonials">
+          <blockquote>
+            <p>“Ben Management made renting easy — quick paperwork and great communication.”</p>
+            <cite>— Chinedu A., Tenant</cite>
+          </blockquote>
+
+          <blockquote>
+            <p>“Our property occupancy increased quickly after they took over management.”</p>
+            <cite>— Folake I., Landlord</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-cta" aria-labelledby="contact-title">
+      <div class="container">
+        <h2 id="contact-title" class="section-title">Ready to talk about housing?</h2>
+        <p class="section-lead">Message us directly on WhatsApp for listings, quotes, or property advice.</p>
+        <a class="btn btn-primary large" href="https://wa.me/2349114133756" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Ben Management</div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="#listings">Listings</a>
+        <a href="https://wa.me/2349114133756" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp contact -->
+  <a class="whatsapp-float" href="https://wa.me/2349114133756" target="_blank" rel="noopener" aria-label="Contact Ben Management on WhatsApp">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20.52 3.48A11.93 11.93 0 0012 0C5.37 0 .08 5.29.08 11.92c0 2.1.55 4.03 1.5 5.74L0 24l6.56-1.6a11.92 11.92 0 005.44 1.2c6.63 0 11.92-5.29 11.92-11.92 0-3.18-1.24-6.17-3.4-8.14z" fill="currentColor"/><path d="M17.39 14.07c-.26-.13-1.54-.76-1.78-.85-.24-.09-.41-.13-.59.13-.18.26-.7.85-.86 1.03-.16.18-.32.2-.58.07-.26-.13-1.1-.4-2.09-1.3-.77-.68-1.29-1.52-1.45-1.78-.16-.26-.02-.4.12-.53.12-.12.26-.32.39-.48.13-.16.17-.26.26-.43.09-.18.05-.33-.02-.46-.07-.13-.59-1.43-.81-1.96-.21-.51-.42-.44-.59-.45-.15-.01-.33-.01-.5-.01-.18 0-.46.06-.7.33-.24.26-.9.87-.9 2.13 0 1.26.92 2.48 1.05 2.65.13.16 1.8 2.77 4.36 3.88 3.06 1.33 3.06.89 3.61.83.54-.06 1.75-.71 1.99-1.39.24-.68.24-1.26.17-1.39-.07-.13-.24-.18-.5-.31z" fill="#fff"/></svg>
+  </a>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true" role="dialog" aria-label="Image preview">
+    <button id="lightbox-close" class="lightbox-close" aria-label="Close preview">✕</button>
+    <img id="lightbox-img" src="" alt="">
+  </div>
+
+  <script src="script-housing.js"></script>
+</body>
+</html>
